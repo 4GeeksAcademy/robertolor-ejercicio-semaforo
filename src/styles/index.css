@@ -1,4 +1,47 @@
+/* .rojo {
+    background-color: red;
+} */
+.traffic-light {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    height: 750px;
+}
 
+
+.circulo {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
+.red {
+    background-color: red;
+}
+
+.red-selected {
+    background-color: red;
+    box-shadow: 0 0 50px rgb(255, 34, 0);
+}
+
+.green {
+    background-color: green;
+}
+
+.green-selected {
+    background-color: lightgreen;
+    box-shadow: 0 0 50px rgb(220, 237, 40);
+}
+
+.yellow {
+    background: yellow;
+}
+
+.yellow-selected {
+    background: yellow;
+    box-shadow: 0 0 50px rgb(220, 237, 40);
+}
 /* 
 
     You can write your own styles here...
